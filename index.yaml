@@ -3,9 +3,9 @@ entries:
   jupyterhub:
   - apiVersion: v1
     appVersion: 1.2.2
-    created: "2020-12-03T18:45:26.163258797+08:00"
+    created: "2020-12-03T18:55:44.88843675+08:00"
     description: Multi-user Jupyter installation created by domedata
-    digest: 4637308de07599d62b7727a242008b5b4d777887c530cb015a7d8323611ed7c1
+    digest: ab5753fede63565417b31e1de023297e43d53a19347e091255f07f3c0b1173a2
     home: https://geeksdata.cn
     icon: https://geeksdata.cn/img/logo.8aa722ca.svg
     kubeVersion: '>=1.14.0-0'
@@ -20,4 +20,4 @@ entries:
     urls:
     - https://dome-data.github.io/helm-chart/jupyterhub-0.10.6-dome0.0.1.tgz
     version: 0.10.6-dome0.0.1
-generated: "2020-12-03T18:45:26.159094623+08:00"
+generated: "2020-12-03T18:55:44.884888652+08:00"
