@@ -1,1 +1,4198 @@
-<h1>Hello</h1>
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>See installation instructions for: | JupyterHub’s Helm chart repository</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="See installation instructions for:" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="This the human friendly view of the JupyterHub team’s Helm chart repository where Helm charts developed elsewhere are published. The command line tool helm will interacts with index.yaml." />
+<meta property="og:description" content="This the human friendly view of the JupyterHub team’s Helm chart repository where Helm charts developed elsewhere are published. The command line tool helm will interacts with index.yaml." />
+<link rel="canonical" href="https://jupyterhub.github.io/helm-chart/" />
+<meta property="og:url" content="https://jupyterhub.github.io/helm-chart/" />
+<meta property="og:site_name" content="JupyterHub’s Helm chart repository" />
+<script type="application/ld+json">
+{"@type":"WebSite","headline":"See installation instructions for:","url":"https://jupyterhub.github.io/helm-chart/","description":"This the human friendly view of the JupyterHub team’s Helm chart repository where Helm charts developed elsewhere are published. The command line tool helm will interacts with index.yaml.","name":"JupyterHub’s Helm chart repository","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/helm-chart/assets/css/style.css?v=e1f54e606b9d0d9184bc21cd4c9f8f41d53ffc85">
+    <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="https://jupyterhub.github.io/helm-chart/">JupyterHub's Helm chart repository</a></h1>
+        
+        
+
+        <p>This the human friendly view of the JupyterHub team's Helm chart repository
+where Helm charts developed elsewhere are published. The command line tool
+<code>helm</code> will interacts with <a href="index.yaml">index.yaml</a>.
+</p>
+
+        
+        <p class="view"><a href="https://github.com/jupyterhub/helm-chart">View the Project on GitHub <small>jupyterhub/helm-chart</small></a></p>
+        
+
+        
+
+        
+      </header>
+      <section>
+
+      <h2 id="see-installation-instructions-for">See installation instructions for:</h2>
+
+<ul>
+  <li><a href="https://zero-to-jupyterhub.readthedocs.io">JupyterHub</a></li>
+  <li><a href="https://binderhub.readthedocs.io">BinderHub</a></li>
+</ul>
+
+<p>Jump to:</p>
+<ul>
+  <li><a href="#development-releases-binderhub">Development Releases: binderhub</a></li>
+  <li><a href="#development-releases-jupyterhub">Development Releases: jupyterhub</a></li>
+  <li><a href="#development-releases-pebble">Development Releases: pebble</a></li>
+</ul>
+
+<h2 id="stable-releases">Stable releases</h2>
+
+<h3 id="jupyterhub">jupyterhub</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Version</th>
+      <th>Date</th>
+      <th>App. version</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.10.6.tgz">0.10.6</a></td>
+      <td>27 November 2020</td>
+      <td>1.2.2</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.10.5.tgz">0.10.5</a></td>
+      <td>27 November 2020</td>
+      <td>1.2.2</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.10.4.tgz">0.10.4</a></td>
+      <td>21 November 2020</td>
+      <td>1.2.1</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.10.3.tgz">0.10.3</a></td>
+      <td>16 November 2020</td>
+      <td>1.2.1</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.10.2.tgz">0.10.2</a></td>
+      <td>30 October 2020</td>
+      <td>1.2.1</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.10.1.tgz">0.10.1</a></td>
+      <td>30 October 2020</td>
+      <td>1.2.1</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.10.0.tgz">0.10.0</a></td>
+      <td>29 October 2020</td>
+      <td>1.2.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.1.tgz">0.9.1</a></td>
+      <td>17 July 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0.tgz">0.9.0</a></td>
+      <td>15 April 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.8.2.tgz">0.8.2</a></td>
+      <td>01 April 2019</td>
+      <td>0.9.6</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.8.1.tgz">0.8.1</a></td>
+      <td>28 March 2019</td>
+      <td>0.9.5</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.8.0.tgz">0.8.0</a></td>
+      <td>21 February 2019</td>
+      <td>0.9.4</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.7.0.tgz">0.7.0</a></td>
+      <td>03 September 2018</td>
+      <td>0.9.2</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.6.tgz">v0.6</a></td>
+      <td>31 January 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0.tgz">0.5.0</a></td>
+      <td>12 December 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.4.tgz">v0.4</a></td>
+      <td>27 June 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.3.1.tgz">v0.3.1</a></td>
+      <td>19 May 2017</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="pebble">pebble</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Version</th>
+      <th>Date</th>
+      <th>App. version</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/pebble-0.2.2.tgz">0.2.2</a></td>
+      <td>01 June 2020</td>
+      <td>v2.3.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/pebble-0.2.1.tgz">0.2.1</a></td>
+      <td>01 June 2020</td>
+      <td>v2.3.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/pebble-0.2.0.tgz">0.2.0</a></td>
+      <td>25 May 2020</td>
+      <td>v2.3.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/pebble-0.1.0.tgz">0.1.0</a></td>
+      <td>15 May 2020</td>
+      <td>v2.3.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/pebble-0.0.3.tgz">0.0.3</a></td>
+      <td>13 May 2020</td>
+      <td>v2.3.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/pebble-0.0.2.tgz">0.0.2</a></td>
+      <td>10 May 2020</td>
+      <td>v2.3.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/pebble-0.0.1.tgz">0.0.1</a></td>
+      <td>08 May 2020</td>
+      <td>v2.3.0</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="development-releases-binderhub">Development releases: binderhub</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Version</th>
+      <th>Date</th>
+      <th>App. version</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-n432.h687657b.tgz">0.2.0-n432.h687657b</a></td>
+      <td>24 November 2020</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-n423.ha36348e.tgz">0.2.0-n423.ha36348e</a></td>
+      <td>23 November 2020</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-n412.h1f1f0c4.tgz">0.2.0-n412.h1f1f0c4</a></td>
+      <td>18 November 2020</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-n409.hc20a2da.tgz">0.2.0-n409.hc20a2da</a></td>
+      <td>16 November 2020</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-n388.h9cc5a54.tgz">0.2.0-n388.h9cc5a54</a></td>
+      <td>15 November 2020</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-n361.h6f57706.tgz">0.2.0-n361.h6f57706</a></td>
+      <td>04 November 2020</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-n359.h8a9d4ca.tgz">0.2.0-n359.h8a9d4ca</a></td>
+      <td>04 November 2020</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-n357.hdfe0201.tgz">0.2.0-n357.hdfe0201</a></td>
+      <td>03 November 2020</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-n348.h264289a.tgz">0.2.0-n348.h264289a</a></td>
+      <td>03 November 2020</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-n301.hc5e7db2.tgz">0.2.0-n301.hc5e7db2</a></td>
+      <td>02 November 2020</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-n299.h343b871.tgz">0.2.0-n299.h343b871</a></td>
+      <td>02 November 2020</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-n295.h9e6d009.tgz">0.2.0-n295.h9e6d009</a></td>
+      <td>02 November 2020</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-n293.h7e04ad4.tgz">0.2.0-n293.h7e04ad4</a></td>
+      <td>31 October 2020</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-n287.h068b631.tgz">0.2.0-n287.h068b631</a></td>
+      <td>30 October 2020</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-n277.h3187c31.tgz">0.2.0-n277.h3187c31</a></td>
+      <td>30 October 2020</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-n274.hc69f4c8.tgz">0.2.0-n274.hc69f4c8</a></td>
+      <td>30 October 2020</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-n269.hcb9bc69.tgz">0.2.0-n269.hcb9bc69</a></td>
+      <td>30 October 2020</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-n267.h1619d74.tgz">0.2.0-n267.h1619d74</a></td>
+      <td>30 October 2020</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-n265.h5625d55.tgz">0.2.0-n265.h5625d55</a></td>
+      <td>30 October 2020</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-n262.hbd81b48.tgz">0.2.0-n262.hbd81b48</a></td>
+      <td>30 October 2020</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-n259.ha4908da.tgz">0.2.0-n259.ha4908da</a></td>
+      <td>29 October 2020</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-n257.h1c01fb1.tgz">0.2.0-n257.h1c01fb1</a></td>
+      <td>29 October 2020</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-n254.h7cedaa7.tgz">0.2.0-n254.h7cedaa7</a></td>
+      <td>29 October 2020</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-n251.h025ce54.tgz">0.2.0-n251.h025ce54</a></td>
+      <td>29 October 2020</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-n244.hd6d3e22.tgz">0.2.0-n244.hd6d3e22</a></td>
+      <td>26 October 2020</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-n242.h87e78af.tgz">0.2.0-n242.h87e78af</a></td>
+      <td>19 October 2020</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-n239.hddb603b.tgz">0.2.0-n239.hddb603b</a></td>
+      <td>19 October 2020</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-n232.hf08d55f.tgz">0.2.0-n232.hf08d55f</a></td>
+      <td>19 October 2020</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-n228.ha00bbbb.tgz">0.2.0-n228.ha00bbbb</a></td>
+      <td>18 October 2020</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-n224.hf5cc56a.tgz">0.2.0-n224.hf5cc56a</a></td>
+      <td>11 October 2020</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-n221.h1875bcb.tgz">0.2.0-n221.h1875bcb</a></td>
+      <td>28 September 2020</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-n219.hbc17443.tgz">0.2.0-n219.hbc17443</a></td>
+      <td>10 September 2020</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-n217.h35366ea.tgz">0.2.0-n217.h35366ea</a></td>
+      <td>04 September 2020</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-n215.h9447e17.tgz">0.2.0-n215.h9447e17</a></td>
+      <td>26 August 2020</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-n213.hbb8f58f.tgz">0.2.0-n213.hbb8f58f</a></td>
+      <td>18 August 2020</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-n208.hb81d913.tgz">0.2.0-n208.hb81d913</a></td>
+      <td>29 July 2020</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-n206.h030b435.tgz">0.2.0-n206.h030b435</a></td>
+      <td>28 July 2020</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-n202.hd01068c.tgz">0.2.0-n202.hd01068c</a></td>
+      <td>28 July 2020</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-n200.h305d0e8.tgz">0.2.0-n200.h305d0e8</a></td>
+      <td>22 July 2020</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-n198.hcf2abd9.tgz">0.2.0-n198.hcf2abd9</a></td>
+      <td>15 July 2020</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-n193.hfc12027.tgz">0.2.0-n193.hfc12027</a></td>
+      <td>14 July 2020</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-n192.h900d1d6.tgz">0.2.0-n192.h900d1d6</a></td>
+      <td>14 July 2020</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-n189.h5ece772.tgz">0.2.0-n189.h5ece772</a></td>
+      <td>02 July 2020</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-n187.hdb3aa0e.tgz">0.2.0-n187.hdb3aa0e</a></td>
+      <td>30 June 2020</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-n186.h58a0b72.tgz">0.2.0-n186.h58a0b72</a></td>
+      <td>19 June 2020</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-n181.h23ae206.tgz">0.2.0-n181.h23ae206</a></td>
+      <td>18 June 2020</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-n178.h9cff5e3.tgz">0.2.0-n178.h9cff5e3</a></td>
+      <td>04 June 2020</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-n175.he98f51d.tgz">0.2.0-n175.he98f51d</a></td>
+      <td>01 June 2020</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-n172.h9874c43.tgz">0.2.0-n172.h9874c43</a></td>
+      <td>26 May 2020</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-n169.h02ea279.tgz">0.2.0-n169.h02ea279</a></td>
+      <td>23 May 2020</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-n162.h003d856.tgz">0.2.0-n162.h003d856</a></td>
+      <td>20 May 2020</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-n156.hec14d4a.tgz">0.2.0-n156.hec14d4a</a></td>
+      <td>10 May 2020</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-n153.h7db895c.tgz">0.2.0-n153.h7db895c</a></td>
+      <td>26 April 2020</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-n152.hf01e3b2.tgz">0.2.0-n152.hf01e3b2</a></td>
+      <td>26 April 2020</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-n146.hfa59322.tgz">0.2.0-n146.hfa59322</a></td>
+      <td>26 April 2020</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-n144.h99e117b.tgz">0.2.0-n144.h99e117b</a></td>
+      <td>26 April 2020</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-n140.h18be10d.tgz">0.2.0-n140.h18be10d</a></td>
+      <td>26 April 2020</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-n139.ha1f9f09.tgz">0.2.0-n139.ha1f9f09</a></td>
+      <td>27 March 2020</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-n136.h146e5d2.tgz">0.2.0-n136.h146e5d2</a></td>
+      <td>27 March 2020</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-n134.hb4819f9.tgz">0.2.0-n134.hb4819f9</a></td>
+      <td>25 March 2020</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-n132.h1a8ce62.tgz">0.2.0-n132.h1a8ce62</a></td>
+      <td>26 February 2020</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-n130.hc693dc5.tgz">0.2.0-n130.hc693dc5</a></td>
+      <td>26 February 2020</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-n128.h00b0576.tgz">0.2.0-n128.h00b0576</a></td>
+      <td>25 February 2020</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-n126.h5a1202f.tgz">0.2.0-n126.h5a1202f</a></td>
+      <td>22 February 2020</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-n124.h7f83ebf.tgz">0.2.0-n124.h7f83ebf</a></td>
+      <td>21 February 2020</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-n121.h6d936d7.tgz">0.2.0-n121.h6d936d7</a></td>
+      <td>18 February 2020</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-n120.h207ae70.tgz">0.2.0-n120.h207ae70</a></td>
+      <td>14 February 2020</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-n106.hd61fc9a.tgz">0.2.0-n106.hd61fc9a</a></td>
+      <td>11 February 2020</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-n104.h786c8e0.tgz">0.2.0-n104.h786c8e0</a></td>
+      <td>06 February 2020</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-n102.hec2a2f3.tgz">0.2.0-n102.hec2a2f3</a></td>
+      <td>06 February 2020</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-n096.h4e521a1.tgz">0.2.0-n096.h4e521a1</a></td>
+      <td>04 February 2020</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-n093.h7cfad48.tgz">0.2.0-n093.h7cfad48</a></td>
+      <td>03 February 2020</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-n079.h351d336.tgz">0.2.0-n079.h351d336</a></td>
+      <td>28 January 2020</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-n077.hef338bc.tgz">0.2.0-n077.hef338bc</a></td>
+      <td>28 January 2020</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-n075.hb369d46.tgz">0.2.0-n075.hb369d46</a></td>
+      <td>27 January 2020</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-072.544c0b1.tgz">0.2.0-072.544c0b1</a></td>
+      <td>21 January 2020</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-069.dbffec6.tgz">0.2.0-069.dbffec6</a></td>
+      <td>16 January 2020</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-068.0b5080a.tgz">0.2.0-068.0b5080a</a></td>
+      <td>09 January 2020</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-065.f0e541b.tgz">0.2.0-065.f0e541b</a></td>
+      <td>09 January 2020</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-061.4221738.tgz">0.2.0-061.4221738</a></td>
+      <td>19 December 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-059.78bfbcd.tgz">0.2.0-059.78bfbcd</a></td>
+      <td>17 December 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-056.8c51534.tgz">0.2.0-056.8c51534</a></td>
+      <td>12 December 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-051.99305a6.tgz">0.2.0-051.99305a6</a></td>
+      <td>11 December 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-049.8a0cee8.tgz">0.2.0-049.8a0cee8</a></td>
+      <td>10 December 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-045.089702b.tgz">0.2.0-045.089702b</a></td>
+      <td>05 December 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-039.58fb2a0.tgz">0.2.0-039.58fb2a0</a></td>
+      <td>05 December 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-037.c81a986.tgz">0.2.0-037.c81a986</a></td>
+      <td>05 December 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-028.9ba1fc3.tgz">0.2.0-028.9ba1fc3</a></td>
+      <td>02 December 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-026.7c50358.tgz">0.2.0-026.7c50358</a></td>
+      <td>02 December 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-024.1820a10.tgz">0.2.0-024.1820a10</a></td>
+      <td>01 December 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-021.66516e5.tgz">0.2.0-021.66516e5</a></td>
+      <td>01 December 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-018.0c62683.tgz">0.2.0-018.0c62683</a></td>
+      <td>01 December 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-017.5aa671c.tgz">0.2.0-017.5aa671c</a></td>
+      <td>29 November 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-013.dace2ee.tgz">0.2.0-013.dace2ee</a></td>
+      <td>29 November 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-004.9756642.tgz">0.2.0-004.9756642</a></td>
+      <td>28 November 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-001.00f7197.tgz">0.2.0-001.00f7197</a></td>
+      <td>28 November 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-456.7e32ac0.tgz">0.1.0-456.7e32ac0</a></td>
+      <td>27 November 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-c04966f.tgz">0.2.0-c04966f</a></td>
+      <td>19 November 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-449bf67.tgz">0.2.0-449bf67</a></td>
+      <td>19 November 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-c80b26c.tgz">0.2.0-c80b26c</a></td>
+      <td>16 November 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-65e6ae4.tgz">0.2.0-65e6ae4</a></td>
+      <td>15 November 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-d2e3b8b.tgz">0.2.0-d2e3b8b</a></td>
+      <td>10 November 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-ad3881e.tgz">0.2.0-ad3881e</a></td>
+      <td>04 November 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-798f8c6.tgz">0.2.0-798f8c6</a></td>
+      <td>04 November 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-b3c9128.tgz">0.2.0-b3c9128</a></td>
+      <td>29 October 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-29e7546.tgz">0.2.0-29e7546</a></td>
+      <td>25 October 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-95e023e.tgz">0.2.0-95e023e</a></td>
+      <td>25 October 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-9fb6d3f.tgz">0.2.0-9fb6d3f</a></td>
+      <td>23 October 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-5b3824d.tgz">0.2.0-5b3824d</a></td>
+      <td>22 October 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-889380c.tgz">0.2.0-889380c</a></td>
+      <td>19 October 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-a2079a5.tgz">0.2.0-a2079a5</a></td>
+      <td>11 October 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-1efa7b8.tgz">0.2.0-1efa7b8</a></td>
+      <td>11 October 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-b9ed7f5.tgz">0.2.0-b9ed7f5</a></td>
+      <td>25 September 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-acc1724.tgz">0.2.0-acc1724</a></td>
+      <td>25 September 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-fcc4a4b.tgz">0.2.0-fcc4a4b</a></td>
+      <td>25 September 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-575fb2a.tgz">0.2.0-575fb2a</a></td>
+      <td>22 September 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-c30114a.tgz">0.2.0-c30114a</a></td>
+      <td>22 September 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-99af80d.tgz">0.2.0-99af80d</a></td>
+      <td>20 September 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-07b71cd.tgz">0.2.0-07b71cd</a></td>
+      <td>19 September 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-fe678dc.tgz">0.2.0-fe678dc</a></td>
+      <td>18 September 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-fbbc302.tgz">0.2.0-fbbc302</a></td>
+      <td>08 September 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-a5e19b3.tgz">0.2.0-a5e19b3</a></td>
+      <td>05 September 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-f746e50.tgz">0.2.0-f746e50</a></td>
+      <td>20 August 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-0216360.tgz">0.2.0-0216360</a></td>
+      <td>20 August 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-1650132.tgz">0.2.0-1650132</a></td>
+      <td>20 August 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-eb1fc66.tgz">0.2.0-eb1fc66</a></td>
+      <td>16 August 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-8d3a41b.tgz">0.2.0-8d3a41b</a></td>
+      <td>16 August 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-35d4440.tgz">0.2.0-35d4440</a></td>
+      <td>16 August 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-501f767.tgz">0.2.0-501f767</a></td>
+      <td>16 August 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-8f31091.tgz">0.2.0-8f31091</a></td>
+      <td>15 August 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-2fe1a63.tgz">0.2.0-2fe1a63</a></td>
+      <td>14 August 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-f565958.tgz">0.2.0-f565958</a></td>
+      <td>11 August 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-d8b8349.tgz">0.2.0-d8b8349</a></td>
+      <td>11 August 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-b7f6047.tgz">0.2.0-b7f6047</a></td>
+      <td>11 August 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-fe62cda.tgz">0.2.0-fe62cda</a></td>
+      <td>09 August 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-1a76d5f.tgz">0.2.0-1a76d5f</a></td>
+      <td>08 August 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-10a3dee.tgz">0.2.0-10a3dee</a></td>
+      <td>08 August 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-9994a92.tgz">0.2.0-9994a92</a></td>
+      <td>08 August 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-409f200.tgz">0.2.0-409f200</a></td>
+      <td>08 August 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-4db41e0.tgz">0.2.0-4db41e0</a></td>
+      <td>03 August 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-654b31d.tgz">0.2.0-654b31d</a></td>
+      <td>30 July 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-899fed2.tgz">0.2.0-899fed2</a></td>
+      <td>30 July 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-822f7c9.tgz">0.2.0-822f7c9</a></td>
+      <td>30 July 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-4013220.tgz">0.2.0-4013220</a></td>
+      <td>28 July 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-33a907e.tgz">0.2.0-33a907e</a></td>
+      <td>28 July 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-f5cf428.tgz">0.2.0-f5cf428</a></td>
+      <td>28 July 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-9c3045e.tgz">0.2.0-9c3045e</a></td>
+      <td>26 July 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-5ca42ec.tgz">0.2.0-5ca42ec</a></td>
+      <td>01 July 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-c8ab0a3.tgz">0.2.0-c8ab0a3</a></td>
+      <td>18 June 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-908c443.tgz">0.2.0-908c443</a></td>
+      <td>17 June 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-4300f2c.tgz">0.2.0-4300f2c</a></td>
+      <td>13 June 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-3dd5511.tgz">0.2.0-3dd5511</a></td>
+      <td>06 June 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-9469b37.tgz">0.2.0-9469b37</a></td>
+      <td>03 June 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-0d300b8.tgz">0.2.0-0d300b8</a></td>
+      <td>02 June 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-851025f.tgz">0.2.0-851025f</a></td>
+      <td>31 May 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-9f83710.tgz">0.2.0-9f83710</a></td>
+      <td>26 May 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-82fc209.tgz">0.2.0-82fc209</a></td>
+      <td>23 May 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-93bb7e4.tgz">0.2.0-93bb7e4</a></td>
+      <td>23 May 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-10ac4d8.tgz">0.2.0-10ac4d8</a></td>
+      <td>20 May 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-5536a0f.tgz">0.2.0-5536a0f</a></td>
+      <td>25 April 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-7b2c4f8.tgz">0.2.0-7b2c4f8</a></td>
+      <td>18 April 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-1eac3a0.tgz">0.2.0-1eac3a0</a></td>
+      <td>17 April 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-a21e7f1.tgz">0.2.0-a21e7f1</a></td>
+      <td>16 April 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-2935b4e.tgz">0.2.0-2935b4e</a></td>
+      <td>16 April 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-f98a1d0.tgz">0.2.0-f98a1d0</a></td>
+      <td>11 April 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-612ade7.tgz">0.2.0-612ade7</a></td>
+      <td>02 April 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-b16f493.tgz">0.2.0-b16f493</a></td>
+      <td>22 March 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-3b53fce.tgz">0.2.0-3b53fce</a></td>
+      <td>21 March 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-64bb3c7.tgz">0.2.0-64bb3c7</a></td>
+      <td>23 February 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-817d3c9.tgz">0.2.0-817d3c9</a></td>
+      <td>21 February 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-7eef07e.tgz">0.2.0-7eef07e</a></td>
+      <td>20 February 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-6bfd93b.tgz">0.2.0-6bfd93b</a></td>
+      <td>15 February 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-2e5086a.tgz">0.2.0-2e5086a</a></td>
+      <td>14 February 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-b593363.tgz">0.2.0-b593363</a></td>
+      <td>04 February 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-51c34ff.tgz">0.2.0-51c34ff</a></td>
+      <td>03 February 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-276d090.tgz">0.2.0-276d090</a></td>
+      <td>29 January 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-7c3271e.tgz">0.2.0-7c3271e</a></td>
+      <td>25 January 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-27f6538.tgz">0.2.0-27f6538</a></td>
+      <td>24 January 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-a529251.tgz">0.2.0-a529251</a></td>
+      <td>21 January 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-4118033.tgz">0.2.0-4118033</a></td>
+      <td>21 January 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-d4b724a.tgz">0.2.0-d4b724a</a></td>
+      <td>16 January 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-baa3808.tgz">0.2.0-baa3808</a></td>
+      <td>16 January 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-8d01547.tgz">0.2.0-8d01547</a></td>
+      <td>16 January 2019</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-d50f045.tgz">0.2.0-d50f045</a></td>
+      <td>19 December 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-275f286.tgz">0.2.0-275f286</a></td>
+      <td>19 December 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-58e8ae9.tgz">0.2.0-58e8ae9</a></td>
+      <td>29 November 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-aef8b76.tgz">0.2.0-aef8b76</a></td>
+      <td>29 November 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-2b368e4.tgz">0.2.0-2b368e4</a></td>
+      <td>27 November 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-5be4d08.tgz">0.2.0-5be4d08</a></td>
+      <td>26 November 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-11f7e69.tgz">0.2.0-11f7e69</a></td>
+      <td>17 November 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-f80738c.tgz">0.2.0-f80738c</a></td>
+      <td>14 November 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-2b78880.tgz">0.2.0-2b78880</a></td>
+      <td>12 November 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-6578e4d.tgz">0.2.0-6578e4d</a></td>
+      <td>11 November 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-80ac52c.tgz">0.2.0-80ac52c</a></td>
+      <td>08 November 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-7e8e9b7.tgz">0.2.0-7e8e9b7</a></td>
+      <td>08 November 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-a72d4d0.tgz">0.2.0-a72d4d0</a></td>
+      <td>08 November 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-658032c.tgz">0.2.0-658032c</a></td>
+      <td>08 November 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-88fd96d.tgz">0.1.0-88fd96d</a></td>
+      <td>07 November 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-a413de2.tgz">0.1.0-a413de2</a></td>
+      <td>07 November 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-1975451.tgz">0.1.0-1975451</a></td>
+      <td>07 November 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-108c668.tgz">0.1.0-108c668</a></td>
+      <td>07 November 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-79a9de8.tgz">0.1.0-79a9de8</a></td>
+      <td>07 November 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-70d53fe.tgz">0.1.0-70d53fe</a></td>
+      <td>06 November 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-75c0c6e.tgz">0.1.0-75c0c6e</a></td>
+      <td>02 November 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-c79a4fc.tgz">0.1.0-c79a4fc</a></td>
+      <td>01 November 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-6e91396.tgz">0.1.0-6e91396</a></td>
+      <td>30 October 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-47ed8cd.tgz">0.1.0-47ed8cd</a></td>
+      <td>24 October 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-dec8682.tgz">0.1.0-dec8682</a></td>
+      <td>24 October 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-0d4acbd.tgz">0.1.0-0d4acbd</a></td>
+      <td>23 October 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-7d008a3.tgz">0.1.0-7d008a3</a></td>
+      <td>11 October 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-24ad99a.tgz">0.1.0-24ad99a</a></td>
+      <td>11 October 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-dd2de38.tgz">0.1.0-dd2de38</a></td>
+      <td>10 October 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-5d72e9f.tgz">0.1.0-5d72e9f</a></td>
+      <td>08 October 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-8e9376c.tgz">0.1.0-8e9376c</a></td>
+      <td>08 October 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-230bbde.tgz">0.1.0-230bbde</a></td>
+      <td>27 September 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-be00d27.tgz">0.1.0-be00d27</a></td>
+      <td>25 September 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-5737187.tgz">0.1.0-5737187</a></td>
+      <td>22 September 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-a6b64f6.tgz">0.1.0-a6b64f6</a></td>
+      <td>21 September 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-18afb2c.tgz">0.1.0-18afb2c</a></td>
+      <td>20 September 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-3fbbd73.tgz">0.1.0-3fbbd73</a></td>
+      <td>19 September 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-f810e0e.tgz">0.1.0-f810e0e</a></td>
+      <td>19 September 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-a36cd83.tgz">0.1.0-a36cd83</a></td>
+      <td>18 September 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-b0ac9a8.tgz">0.1.0-b0ac9a8</a></td>
+      <td>17 September 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-13b65e2.tgz">0.1.0-13b65e2</a></td>
+      <td>13 September 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-e539e64.tgz">0.1.0-e539e64</a></td>
+      <td>13 September 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-1bc8b4c.tgz">0.1.0-1bc8b4c</a></td>
+      <td>13 September 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-3e511fd.tgz">0.1.0-3e511fd</a></td>
+      <td>13 September 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-ad582a5.tgz">0.1.0-ad582a5</a></td>
+      <td>13 September 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-cc509fa.tgz">0.1.0-cc509fa</a></td>
+      <td>11 September 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-587536f.tgz">0.1.0-587536f</a></td>
+      <td>06 September 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-ae4195f.tgz">0.1.0-ae4195f</a></td>
+      <td>06 September 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-f6dbf3a.tgz">0.1.0-f6dbf3a</a></td>
+      <td>06 September 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-2801aaf.tgz">0.1.0-2801aaf</a></td>
+      <td>06 September 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-6e8f9dc.tgz">0.1.0-6e8f9dc</a></td>
+      <td>29 August 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-abe395e.tgz">0.1.0-abe395e</a></td>
+      <td>23 August 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-5f82a56.tgz">0.1.0-5f82a56</a></td>
+      <td>19 August 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-84b394c.tgz">0.1.0-84b394c</a></td>
+      <td>17 August 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-5b7685a.tgz">0.1.0-5b7685a</a></td>
+      <td>15 August 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-4635c23.tgz">0.1.0-4635c23</a></td>
+      <td>31 July 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-795801e.tgz">0.1.0-795801e</a></td>
+      <td>31 July 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-331ab96.tgz">0.1.0-331ab96</a></td>
+      <td>19 July 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-fd778a3.tgz">0.1.0-fd778a3</a></td>
+      <td>17 July 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-8ebaf89.tgz">0.1.0-8ebaf89</a></td>
+      <td>11 July 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-2299f73.tgz">0.1.0-2299f73</a></td>
+      <td>09 July 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-f5f76e6.tgz">0.1.0-f5f76e6</a></td>
+      <td>07 July 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-85a0372.tgz">0.1.0-85a0372</a></td>
+      <td>04 July 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-2c2b48f.tgz">0.1.0-2c2b48f</a></td>
+      <td>04 July 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-3df2b75.tgz">0.1.0-3df2b75</a></td>
+      <td>04 July 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-5085efc.tgz">0.1.0-5085efc</a></td>
+      <td>30 June 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-856e3e6.tgz">0.1.0-856e3e6</a></td>
+      <td>27 June 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-a072a12.tgz">0.1.0-a072a12</a></td>
+      <td>07 June 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-b5000ad.tgz">0.1.0-b5000ad</a></td>
+      <td>24 May 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-4670b66.tgz">0.1.0-4670b66</a></td>
+      <td>24 May 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-165bdc4.tgz">0.1.0-165bdc4</a></td>
+      <td>24 May 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-755c498.tgz">0.1.0-755c498</a></td>
+      <td>23 May 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-6333d53.tgz">0.1.0-6333d53</a></td>
+      <td>23 May 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-0144a36.tgz">0.1.0-0144a36</a></td>
+      <td>21 May 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-19d22bb.tgz">0.1.0-19d22bb</a></td>
+      <td>18 May 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-ee79f00.tgz">0.1.0-ee79f00</a></td>
+      <td>17 May 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-d95cd14.tgz">0.1.0-d95cd14</a></td>
+      <td>17 May 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-470642d.tgz">0.1.0-470642d</a></td>
+      <td>16 May 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-62bb376.tgz">0.1.0-62bb376</a></td>
+      <td>15 May 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-10e99d9.tgz">0.1.0-10e99d9</a></td>
+      <td>15 May 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-a9608f6.tgz">0.1.0-a9608f6</a></td>
+      <td>15 May 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-d02a031.tgz">0.1.0-d02a031</a></td>
+      <td>10 May 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-0deae84.tgz">0.1.0-0deae84</a></td>
+      <td>09 May 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-a5d1851.tgz">0.1.0-a5d1851</a></td>
+      <td>09 May 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-3a1ab89.tgz">0.1.0-3a1ab89</a></td>
+      <td>08 May 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-7a22080.tgz">0.1.0-7a22080</a></td>
+      <td>08 May 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-c0a1dae.tgz">0.1.0-c0a1dae</a></td>
+      <td>08 May 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-72c2c36.tgz">0.1.0-72c2c36</a></td>
+      <td>03 May 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-4648c74.tgz">0.1.0-4648c74</a></td>
+      <td>28 April 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-87025d4.tgz">0.1.0-87025d4</a></td>
+      <td>27 April 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-af0d09e.tgz">0.1.0-af0d09e</a></td>
+      <td>26 April 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-9e95e99.tgz">0.1.0-9e95e99</a></td>
+      <td>24 April 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-3c21fde.tgz">0.1.0-3c21fde</a></td>
+      <td>22 April 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-517ab7c.tgz">0.1.0-517ab7c</a></td>
+      <td>18 April 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-74d98ed.tgz">0.1.0-74d98ed</a></td>
+      <td>18 April 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-04022d2.tgz">0.1.0-04022d2</a></td>
+      <td>18 April 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-65e767a.tgz">0.1.0-65e767a</a></td>
+      <td>16 April 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-8f7b71c.tgz">0.1.0-8f7b71c</a></td>
+      <td>15 April 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-6837cc7.tgz">0.1.0-6837cc7</a></td>
+      <td>13 April 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-4075ab8.tgz">0.1.0-4075ab8</a></td>
+      <td>07 April 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-78972e6.tgz">0.1.0-78972e6</a></td>
+      <td>06 April 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-e65121b.tgz">0.1.0-e65121b</a></td>
+      <td>06 April 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-cd4f6de.tgz">0.1.0-cd4f6de</a></td>
+      <td>06 April 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-4fef405.tgz">0.1.0-4fef405</a></td>
+      <td>05 April 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-e113dbb.tgz">0.1.0-e113dbb</a></td>
+      <td>02 April 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-316895a.tgz">0.1.0-316895a</a></td>
+      <td>22 March 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-587e8a9.tgz">0.1.0-587e8a9</a></td>
+      <td>20 March 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-e54c217.tgz">0.1.0-e54c217</a></td>
+      <td>16 March 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-e64bc21.tgz">0.1.0-e64bc21</a></td>
+      <td>16 March 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-bb4029a.tgz">0.1.0-bb4029a</a></td>
+      <td>15 March 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-100220a.tgz">0.1.0-100220a</a></td>
+      <td>15 March 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-628f741.tgz">0.1.0-628f741</a></td>
+      <td>15 March 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-0bb083d.tgz">0.1.0-0bb083d</a></td>
+      <td>08 March 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-71e690d.tgz">0.1.0-71e690d</a></td>
+      <td>07 March 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-1cc96ee.tgz">0.1.0-1cc96ee</a></td>
+      <td>07 March 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-22fcbc5.tgz">0.1.0-22fcbc5</a></td>
+      <td>07 March 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-2a7b0aa.tgz">0.1.0-2a7b0aa</a></td>
+      <td>27 February 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-94f5f3e.tgz">0.1.0-94f5f3e</a></td>
+      <td>27 February 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-b7e6711.tgz">0.1.0-b7e6711</a></td>
+      <td>26 February 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-a8559e8.tgz">0.1.0-a8559e8</a></td>
+      <td>23 February 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-9abd8bf.tgz">0.1.0-9abd8bf</a></td>
+      <td>22 February 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-9b56017.tgz">0.1.0-9b56017</a></td>
+      <td>21 February 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-ce79685.tgz">0.1.0-ce79685</a></td>
+      <td>20 February 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-4b03e3a.tgz">0.1.0-4b03e3a</a></td>
+      <td>19 February 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-748c2f4.tgz">0.1.0-748c2f4</a></td>
+      <td>08 February 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-35c53ce.tgz">0.1.0-35c53ce</a></td>
+      <td>08 February 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-e75cc14.tgz">0.1.0-e75cc14</a></td>
+      <td>08 February 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-502ffb8.tgz">0.1.0-502ffb8</a></td>
+      <td>08 February 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-710c4cb.tgz">0.1.0-710c4cb</a></td>
+      <td>08 February 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-8dd7595.tgz">0.1.0-8dd7595</a></td>
+      <td>07 February 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-38ba9cb.tgz">0.1.0-38ba9cb</a></td>
+      <td>07 February 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-410bd57.tgz">0.1.0-410bd57</a></td>
+      <td>07 February 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-d9d7613.tgz">0.1.0-d9d7613</a></td>
+      <td>07 February 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-1c25da7.tgz">0.1.0-1c25da7</a></td>
+      <td>06 February 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-98ec94e.tgz">0.1.0-98ec94e</a></td>
+      <td>04 February 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-85ac189.tgz">0.1.0-85ac189</a></td>
+      <td>01 February 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-3f81760.tgz">0.1.0-3f81760</a></td>
+      <td>24 January 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-b502c95.tgz">0.1.0-b502c95</a></td>
+      <td>24 January 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-8d171f0.tgz">0.1.0-8d171f0</a></td>
+      <td>17 January 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-f71de2c.tgz">0.1.0-f71de2c</a></td>
+      <td>11 January 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-fbd816c.tgz">0.1.0-fbd816c</a></td>
+      <td>11 January 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-fc3b1a7.tgz">0.1.0-fc3b1a7</a></td>
+      <td>11 January 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-0b19c22.tgz">0.1.0-0b19c22</a></td>
+      <td>08 January 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-c5bf0e2.tgz">0.1.0-c5bf0e2</a></td>
+      <td>07 January 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-511cd5e.tgz">0.1.0-511cd5e</a></td>
+      <td>06 January 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-52d9ac3.tgz">0.1.0-52d9ac3</a></td>
+      <td>04 January 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-f42be0f.tgz">0.1.0-f42be0f</a></td>
+      <td>04 January 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-441f5ea.tgz">0.1.0-441f5ea</a></td>
+      <td>04 January 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-d2a8262.tgz">0.1.0-d2a8262</a></td>
+      <td>04 January 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-174093c.tgz">0.1.0-174093c</a></td>
+      <td>04 January 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-f110d6b.tgz">0.1.0-f110d6b</a></td>
+      <td>02 January 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-88d62ca.tgz">0.1.0-88d62ca</a></td>
+      <td>27 December 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-f303f01.tgz">0.1.0-f303f01</a></td>
+      <td>27 December 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-e80b083.tgz">0.1.0-e80b083</a></td>
+      <td>20 December 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-c146785.tgz">0.1.0-c146785</a></td>
+      <td>20 December 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-d780bd6.tgz">0.1.0-d780bd6</a></td>
+      <td>20 December 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-74ec877.tgz">0.1.0-74ec877</a></td>
+      <td>20 December 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-9f0f622.tgz">0.1.0-9f0f622</a></td>
+      <td>20 December 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-09c10eb.tgz">0.1.0-09c10eb</a></td>
+      <td>18 December 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-c2fc607.tgz">0.1.0-c2fc607</a></td>
+      <td>15 December 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-513ba4e.tgz">0.1.0-513ba4e</a></td>
+      <td>14 December 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-6910d38.tgz">0.1.0-6910d38</a></td>
+      <td>12 December 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-2f56b77.tgz">0.1.0-2f56b77</a></td>
+      <td>12 December 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-2ea22d9.tgz">0.1.0-2ea22d9</a></td>
+      <td>10 December 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-da6b462.tgz">0.1.0-da6b462</a></td>
+      <td>10 December 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-fc29c17.tgz">0.1.0-fc29c17</a></td>
+      <td>09 December 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-81f9e33.tgz">0.1.0-81f9e33</a></td>
+      <td>08 December 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-e56e50a.tgz">0.1.0-e56e50a</a></td>
+      <td>08 December 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-5cdfc38.tgz">0.1.0-5cdfc38</a></td>
+      <td>03 December 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-e94a2a4.tgz">0.1.0-e94a2a4</a></td>
+      <td>01 December 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-45942f3.tgz">0.1.0-45942f3</a></td>
+      <td>29 November 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-2dfa9b5.tgz">0.1.0-2dfa9b5</a></td>
+      <td>29 November 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-0b6c4f4.tgz">0.1.0-0b6c4f4</a></td>
+      <td>29 November 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-e2cffe5.tgz">0.1.0-e2cffe5</a></td>
+      <td>29 November 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-811406b.tgz">0.1.0-811406b</a></td>
+      <td>27 November 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-7132d45.tgz">0.1.0-7132d45</a></td>
+      <td>24 November 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-297d09d.tgz">0.1.0-297d09d</a></td>
+      <td>23 November 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-ee9373b.tgz">0.1.0-ee9373b</a></td>
+      <td>23 November 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-268b527.tgz">0.1.0-268b527</a></td>
+      <td>21 November 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-8dc11b8.tgz">0.1.0-8dc11b8</a></td>
+      <td>21 November 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-2986e56.tgz">0.1.0-2986e56</a></td>
+      <td>21 November 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-f707e41.tgz">0.1.0-f707e41</a></td>
+      <td>20 November 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-f87ac35.tgz">0.1.0-f87ac35</a></td>
+      <td>17 November 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-73b001e.tgz">0.1.0-73b001e</a></td>
+      <td>16 November 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-397eb59.tgz">0.1.0-397eb59</a></td>
+      <td>16 November 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-d434a0d.tgz">0.1.0-d434a0d</a></td>
+      <td>14 November 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-4461af2.tgz">0.1.0-4461af2</a></td>
+      <td>13 November 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-5877a09.tgz">0.1.0-5877a09</a></td>
+      <td>13 November 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-47830c5.tgz">0.1.0-47830c5</a></td>
+      <td>13 November 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-576e5fa.tgz">0.1.0-576e5fa</a></td>
+      <td>13 November 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-5f52e41.tgz">0.1.0-5f52e41</a></td>
+      <td>13 November 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-62e9e19.tgz">0.1.0-62e9e19</a></td>
+      <td>12 November 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-faa453c.tgz">0.1.0-faa453c</a></td>
+      <td>12 November 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-7a2b134.tgz">0.1.0-7a2b134</a></td>
+      <td>10 November 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-044c8c2.tgz">0.1.0-044c8c2</a></td>
+      <td>09 November 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-534681b.tgz">0.1.0-534681b</a></td>
+      <td>06 November 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-a6144d1.tgz">0.1.0-a6144d1</a></td>
+      <td>01 November 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-9494d48.tgz">0.1.0-9494d48</a></td>
+      <td>01 November 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-c6670a4.tgz">0.1.0-c6670a4</a></td>
+      <td>31 October 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-7ca33f9.tgz">0.1.0-7ca33f9</a></td>
+      <td>30 October 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-9692255.tgz">0.1.0-9692255</a></td>
+      <td>25 October 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-1be5b6a.tgz">0.1.0-1be5b6a</a></td>
+      <td>21 October 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-94116a1.tgz">0.1.0-94116a1</a></td>
+      <td>19 October 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-3b1009b.tgz">0.1.0-3b1009b</a></td>
+      <td>17 October 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-e94b48b.tgz">0.1.0-e94b48b</a></td>
+      <td>17 October 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-fbf6e5a.tgz">0.1.0-fbf6e5a</a></td>
+      <td>16 October 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-bda3323.tgz">0.1.0-bda3323</a></td>
+      <td>12 October 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-9623b55.tgz">0.1.0-9623b55</a></td>
+      <td>10 October 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-f46f161.tgz">0.1.0-f46f161</a></td>
+      <td>07 October 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-789e30a.tgz">0.1.0-789e30a</a></td>
+      <td>06 October 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-691c2bc.tgz">0.1.0-691c2bc</a></td>
+      <td>06 October 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-c3df45c.tgz">0.1.0-c3df45c</a></td>
+      <td>06 October 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-512fbac.tgz">0.1.0-512fbac</a></td>
+      <td>06 October 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-545ceee.tgz">0.1.0-545ceee</a></td>
+      <td>05 October 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-f33fea6.tgz">0.1.0-f33fea6</a></td>
+      <td>05 October 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-a66ae0d.tgz">0.1.0-a66ae0d</a></td>
+      <td>05 October 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-9e509fa.tgz">0.1.0-9e509fa</a></td>
+      <td>04 October 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-fd0daf7.tgz">0.1.0-fd0daf7</a></td>
+      <td>04 October 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-a6235f8.tgz">0.1.0-a6235f8</a></td>
+      <td>03 October 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-010de6f.tgz">0.1.0-010de6f</a></td>
+      <td>02 October 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-6a7826f.tgz">0.1.0-6a7826f</a></td>
+      <td>02 October 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-7cc02b0.tgz">0.1.0-7cc02b0</a></td>
+      <td>02 October 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-a97aec7.tgz">0.1.0-a97aec7</a></td>
+      <td>02 October 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-caada72.tgz">0.1.0-caada72</a></td>
+      <td>02 October 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-ed8217d.tgz">0.1.0-ed8217d</a></td>
+      <td>02 October 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-7473366.tgz">0.1.0-7473366</a></td>
+      <td>30 September 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-88ebd43.tgz">0.1.0-88ebd43</a></td>
+      <td>30 September 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-8047c6e.tgz">0.1.0-8047c6e</a></td>
+      <td>30 September 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-5166091.tgz">0.1.0-5166091</a></td>
+      <td>29 September 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-96b907f.tgz">0.1.0-96b907f</a></td>
+      <td>29 September 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-6f57b2a.tgz">0.1.0-6f57b2a</a></td>
+      <td>29 September 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-730f4a0.tgz">0.1.0-730f4a0</a></td>
+      <td>28 September 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-183addc.tgz">0.1.0-183addc</a></td>
+      <td>27 September 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-401c3f9.tgz">0.1.0-401c3f9</a></td>
+      <td>27 September 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-1e3dd8e.tgz">0.1.0-1e3dd8e</a></td>
+      <td>27 September 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-87e3a43.tgz">0.1.0-87e3a43</a></td>
+      <td>26 September 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-469fe5b.tgz">0.1.0-469fe5b</a></td>
+      <td>26 September 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-127dd5e.tgz">0.1.0-127dd5e</a></td>
+      <td>25 September 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/binderhub-0.1.0-464c4f5.tgz">0.1.0-464c4f5</a></td>
+      <td>21 September 2017</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="development-releases-jupyterhub">Development releases: jupyterhub</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Version</th>
+      <th>Date</th>
+      <th>App. version</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.10.6-n002.h12fde2dc.tgz">0.10.6-n002.h12fde2dc</a></td>
+      <td>30 November 2020</td>
+      <td>1.2.2</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.10.6-n000.hed9b2f4f.tgz">0.10.6-n000.hed9b2f4f</a></td>
+      <td>27 November 2020</td>
+      <td>1.2.2</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.10.6.tgz">0.10.6</a></td>
+      <td>27 November 2020</td>
+      <td>1.2.2</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.10.5-n001.hed9b2f4f.tgz">0.10.5-n001.hed9b2f4f</a></td>
+      <td>27 November 2020</td>
+      <td>1.2.2</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.10.5.tgz">0.10.5</a></td>
+      <td>27 November 2020</td>
+      <td>1.2.2</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.10.5-n000.h4f739e88.tgz">0.10.5-n000.h4f739e88</a></td>
+      <td>27 November 2020</td>
+      <td>1.2.2</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.10.4-n009.hdf9328db.tgz">0.10.4-n009.hdf9328db</a></td>
+      <td>27 November 2020</td>
+      <td>1.2.2</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.10.4-n008.hc2a1a71d.tgz">0.10.4-n008.hc2a1a71d</a></td>
+      <td>23 November 2020</td>
+      <td>1.2.1</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.10.4-n007.h19099195.tgz">0.10.4-n007.h19099195</a></td>
+      <td>23 November 2020</td>
+      <td>1.2.1</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.10.4-n002.hd8bbe3c2.tgz">0.10.4-n002.hd8bbe3c2</a></td>
+      <td>23 November 2020</td>
+      <td>1.2.1</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.10.4.tgz">0.10.4</a></td>
+      <td>21 November 2020</td>
+      <td>1.2.1</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.10.4-n000.h455db6f5.tgz">0.10.4-n000.h455db6f5</a></td>
+      <td>21 November 2020</td>
+      <td>1.2.1</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.10.3-n001.hb735ab50.tgz">0.10.3-n001.hb735ab50</a></td>
+      <td>20 November 2020</td>
+      <td>1.2.1</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.10.3.tgz">0.10.3</a></td>
+      <td>16 November 2020</td>
+      <td>1.2.1</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.10.2-n056.h0296f421.tgz">0.10.2-n056.h0296f421</a></td>
+      <td>16 November 2020</td>
+      <td>1.2.1</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.10.2-n053.hb6fe7942.tgz">0.10.2-n053.hb6fe7942</a></td>
+      <td>14 November 2020</td>
+      <td>1.2.1</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.10.2-n047.hb387f987.tgz">0.10.2-n047.hb387f987</a></td>
+      <td>13 November 2020</td>
+      <td>1.2.1</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.10.2-n018.h115402d8.tgz">0.10.2-n018.h115402d8</a></td>
+      <td>11 November 2020</td>
+      <td>1.2.1</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.10.2-n008.ha16f87e6.tgz">0.10.2-n008.ha16f87e6</a></td>
+      <td>03 November 2020</td>
+      <td>1.2.1</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.10.2-n001.h27e46a62.tgz">0.10.2-n001.h27e46a62</a></td>
+      <td>30 October 2020</td>
+      <td>1.2.1</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.10.2.tgz">0.10.2</a></td>
+      <td>30 October 2020</td>
+      <td>1.2.1</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.10.1-n001.h2a84ef01.tgz">0.10.1-n001.h2a84ef01</a></td>
+      <td>30 October 2020</td>
+      <td>1.2.1</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.10.1.tgz">0.10.1</a></td>
+      <td>30 October 2020</td>
+      <td>1.2.1</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.10.0-n001.ha55e2b48.tgz">0.10.0-n001.ha55e2b48</a></td>
+      <td>29 October 2020</td>
+      <td>1.2.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.10.0.tgz">0.10.0</a></td>
+      <td>29 October 2020</td>
+      <td>1.2.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.10.0-beta.1.n023.h0d3e0467.tgz">0.10.0-beta.1.n023.h0d3e0467</a></td>
+      <td>29 October 2020</td>
+      <td>1.2.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.10.0-beta.1.n019.h39e0cd53.tgz">0.10.0-beta.1.n019.h39e0cd53</a></td>
+      <td>28 October 2020</td>
+      <td>1.2.0b1</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.10.0-beta.1.n011.h4724b12f.tgz">0.10.0-beta.1.n011.h4724b12f</a></td>
+      <td>27 October 2020</td>
+      <td>1.2.0b1</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.10.0-beta.1.n003.hdf8d140e.tgz">0.10.0-beta.1.n003.hdf8d140e</a></td>
+      <td>26 October 2020</td>
+      <td>1.2.0b1</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.10.0-beta.1.n001.hf4efe41a.tgz">0.10.0-beta.1.n001.hf4efe41a</a></td>
+      <td>25 October 2020</td>
+      <td>1.2.0b1</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.10.0-beta.1.tgz">0.10.0-beta.1</a></td>
+      <td>23 October 2020</td>
+      <td>1.2.0b1</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n456.hcffbe6c2.tgz">0.9.0-n456.hcffbe6c2</a></td>
+      <td>23 October 2020</td>
+      <td>1.2.0b1</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n435.h98120daa.tgz">0.9.0-n435.h98120daa</a></td>
+      <td>23 October 2020</td>
+      <td>1.2.0b1</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n431.h85e5606f.tgz">0.9.0-n431.h85e5606f</a></td>
+      <td>23 October 2020</td>
+      <td>1.2.0b1</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n419.he870fc85.tgz">0.9.0-n419.he870fc85</a></td>
+      <td>22 October 2020</td>
+      <td>1.2.0b1</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n417.hd1cd6a9a.tgz">0.9.0-n417.hd1cd6a9a</a></td>
+      <td>22 October 2020</td>
+      <td>1.2.0b1</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n409.hce116620.tgz">0.9.0-n409.hce116620</a></td>
+      <td>22 October 2020</td>
+      <td>1.2.0b1</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n405.hd02fadfd.tgz">0.9.0-n405.hd02fadfd</a></td>
+      <td>20 October 2020</td>
+      <td>1.2.0b1</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n399.hb1d96ed5.tgz">0.9.0-n399.hb1d96ed5</a></td>
+      <td>19 October 2020</td>
+      <td>1.2.0b1</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n380.h4f12b059.tgz">0.9.0-n380.h4f12b059</a></td>
+      <td>19 October 2020</td>
+      <td>1.2.0b1</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n370.hbe1a3d28.tgz">0.9.0-n370.hbe1a3d28</a></td>
+      <td>19 October 2020</td>
+      <td>1.2.0b1</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n358.h11c2aeb8.tgz">0.9.0-n358.h11c2aeb8</a></td>
+      <td>18 October 2020</td>
+      <td>1.2.0b1</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n355.h9ca120bb.tgz">0.9.0-n355.h9ca120bb</a></td>
+      <td>16 October 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n352.hd1caf1e1.tgz">0.9.0-n352.hd1caf1e1</a></td>
+      <td>09 October 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n350.h1a70ad06.tgz">0.9.0-n350.h1a70ad06</a></td>
+      <td>09 October 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n348.h6e5ec7e5.tgz">0.9.0-n348.h6e5ec7e5</a></td>
+      <td>09 October 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n337.h511197db.tgz">0.9.0-n337.h511197db</a></td>
+      <td>09 October 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n335.hcc6c02d3.tgz">0.9.0-n335.hcc6c02d3</a></td>
+      <td>08 October 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n332.h14222fb6.tgz">0.9.0-n332.h14222fb6</a></td>
+      <td>08 October 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n328.hfae7249d.tgz">0.9.0-n328.hfae7249d</a></td>
+      <td>08 October 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n321.hfefa941b.tgz">0.9.0-n321.hfefa941b</a></td>
+      <td>08 October 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n314.hbcc818ca.tgz">0.9.0-n314.hbcc818ca</a></td>
+      <td>07 October 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n312.h82500044.tgz">0.9.0-n312.h82500044</a></td>
+      <td>07 October 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n311.ha2c3ef80.tgz">0.9.0-n311.ha2c3ef80</a></td>
+      <td>05 October 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n309.hcda31ccf.tgz">0.9.0-n309.hcda31ccf</a></td>
+      <td>05 October 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n303.h4af17634.tgz">0.9.0-n303.h4af17634</a></td>
+      <td>05 October 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n298.h26f07eed.tgz">0.9.0-n298.h26f07eed</a></td>
+      <td>05 October 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n290.hdea5cf1b.tgz">0.9.0-n290.hdea5cf1b</a></td>
+      <td>04 October 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n287.hd5f1f881.tgz">0.9.0-n287.hd5f1f881</a></td>
+      <td>01 October 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n276.hb7c1d988.tgz">0.9.0-n276.hb7c1d988</a></td>
+      <td>01 October 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n272.hb6a566c6.tgz">0.9.0-n272.hb6a566c6</a></td>
+      <td>30 September 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n269.h8edb4eea.tgz">0.9.0-n269.h8edb4eea</a></td>
+      <td>30 September 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n263.habf6332c.tgz">0.9.0-n263.habf6332c</a></td>
+      <td>26 September 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n259.hf000e94d.tgz">0.9.0-n259.hf000e94d</a></td>
+      <td>23 September 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n251.h9594ed30.tgz">0.9.0-n251.h9594ed30</a></td>
+      <td>21 September 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n249.h4d7ef683.tgz">0.9.0-n249.h4d7ef683</a></td>
+      <td>21 September 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n246.h3d6e7579.tgz">0.9.0-n246.h3d6e7579</a></td>
+      <td>21 September 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n234.ha0758632.tgz">0.9.0-n234.ha0758632</a></td>
+      <td>16 September 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n233.hcd1eff7a.tgz">0.9.0-n233.hcd1eff7a</a></td>
+      <td>16 September 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n226.h47f3da5c.tgz">0.9.0-n226.h47f3da5c</a></td>
+      <td>07 September 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n212.hdd4fd8bd.tgz">0.9.0-n212.hdd4fd8bd</a></td>
+      <td>04 September 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n212.hdd4fd8b.tgz">0.9.0-n212.hdd4fd8b</a></td>
+      <td>04 September 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n205.h1731d26.tgz">0.9.0-n205.h1731d26</a></td>
+      <td>04 September 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n204.h079fe5a.tgz">0.9.0-n204.h079fe5a</a></td>
+      <td>04 September 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n199.hdc2ebee.tgz">0.9.0-n199.hdc2ebee</a></td>
+      <td>04 September 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n196.h5bd6cbc.tgz">0.9.0-n196.h5bd6cbc</a></td>
+      <td>03 September 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n195.hc001af1.tgz">0.9.0-n195.hc001af1</a></td>
+      <td>03 September 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n189.hb137df0.tgz">0.9.0-n189.hb137df0</a></td>
+      <td>03 September 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n186.h773d1bb.tgz">0.9.0-n186.h773d1bb</a></td>
+      <td>01 September 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n179.h7d36508.tgz">0.9.0-n179.h7d36508</a></td>
+      <td>01 September 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n176.h61a496f.tgz">0.9.0-n176.h61a496f</a></td>
+      <td>25 August 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n173.h25782ea.tgz">0.9.0-n173.h25782ea</a></td>
+      <td>25 August 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n170.hc82b69c.tgz">0.9.0-n170.hc82b69c</a></td>
+      <td>25 August 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n164.h60d45c1.tgz">0.9.0-n164.h60d45c1</a></td>
+      <td>25 August 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n152.h29e0d56.tgz">0.9.0-n152.h29e0d56</a></td>
+      <td>11 August 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.1.tgz">0.9.1</a></td>
+      <td>17 July 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n150.h1ce17ed.tgz">0.9.0-n150.h1ce17ed</a></td>
+      <td>16 July 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n145.ha774be1.tgz">0.9.0-n145.ha774be1</a></td>
+      <td>16 July 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n144.h363d0b7.tgz">0.9.0-n144.h363d0b7</a></td>
+      <td>12 July 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n136.hf503a70.tgz">0.9.0-n136.hf503a70</a></td>
+      <td>10 July 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n134.ha2ba220.tgz">0.9.0-n134.ha2ba220</a></td>
+      <td>10 July 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n131.hd080b1d.tgz">0.9.0-n131.hd080b1d</a></td>
+      <td>09 July 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n126.h66b917d.tgz">0.9.0-n126.h66b917d</a></td>
+      <td>08 July 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n116.h1c766a1.tgz">0.9.0-n116.h1c766a1</a></td>
+      <td>28 June 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n110.h2b07aa2.tgz">0.9.0-n110.h2b07aa2</a></td>
+      <td>27 June 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n107.h7d2d3eb.tgz">0.9.0-n107.h7d2d3eb</a></td>
+      <td>17 June 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n078.ha6fb810.tgz">0.9.0-n078.ha6fb810</a></td>
+      <td>09 June 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n075.h6970ddc.tgz">0.9.0-n075.h6970ddc</a></td>
+      <td>05 June 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n067.h7fd38fc.tgz">0.9.0-n067.h7fd38fc</a></td>
+      <td>01 June 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n065.h1533252.tgz">0.9.0-n065.h1533252</a></td>
+      <td>30 May 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n056.hdb19e10.tgz">0.9.0-n056.hdb19e10</a></td>
+      <td>16 May 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n053.hd13e670.tgz">0.9.0-n053.hd13e670</a></td>
+      <td>15 May 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n046.hb737265.tgz">0.9.0-n046.hb737265</a></td>
+      <td>11 May 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n036.hfcf9c2e.tgz">0.9.0-n036.hfcf9c2e</a></td>
+      <td>09 May 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n033.hf4d73c0.tgz">0.9.0-n033.hf4d73c0</a></td>
+      <td>29 April 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n030.h9e30587.tgz">0.9.0-n030.h9e30587</a></td>
+      <td>26 April 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n028.hef29792.tgz">0.9.0-n028.hef29792</a></td>
+      <td>25 April 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n025.hc460c79.tgz">0.9.0-n025.hc460c79</a></td>
+      <td>24 April 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n019.h43b8500.tgz">0.9.0-n019.h43b8500</a></td>
+      <td>20 April 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n017.hf046cf2.tgz">0.9.0-n017.hf046cf2</a></td>
+      <td>20 April 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n010.h50e7edb.tgz">0.9.0-n010.h50e7edb</a></td>
+      <td>20 April 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n009.h20b2412.tgz">0.9.0-n009.h20b2412</a></td>
+      <td>19 April 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n001.h29bee54.tgz">0.9.0-n001.h29bee54</a></td>
+      <td>19 April 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-n000.h5fd3f0d.tgz">0.9.0-n000.h5fd3f0d</a></td>
+      <td>19 April 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0.tgz">0.9.0</a></td>
+      <td>15 April 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-beta.4.n044.h6d361f2.tgz">0.9.0-beta.4.n044.h6d361f2</a></td>
+      <td>08 April 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-beta.4.n012.ha5127ae.tgz">0.9.0-beta.4.n012.ha5127ae</a></td>
+      <td>05 April 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-beta.4.n008.hb20ad22.tgz">0.9.0-beta.4.n008.hb20ad22</a></td>
+      <td>11 March 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-beta.4.n000.h72e54ee.tgz">0.9.0-beta.4.n000.h72e54ee</a></td>
+      <td>03 March 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-beta.4.tgz">0.9.0-beta.4</a></td>
+      <td>26 February 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-beta.3.n040.hb5c8dce.tgz">0.9.0-beta.3.n040.hb5c8dce</a></td>
+      <td>24 February 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-beta.3.n030.h796379e.tgz">0.9.0-beta.3.n030.h796379e</a></td>
+      <td>20 February 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-beta.3.n027.hb7da682.tgz">0.9.0-beta.3.n027.hb7da682</a></td>
+      <td>16 February 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-beta.3.n023.h6a2b994.tgz">0.9.0-beta.3.n023.h6a2b994</a></td>
+      <td>13 February 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-beta.3.n022.hbc907f7.tgz">0.9.0-beta.3.n022.hbc907f7</a></td>
+      <td>05 February 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-beta.3.n015.he2873d9.tgz">0.9.0-beta.3.n015.he2873d9</a></td>
+      <td>04 February 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-beta.3.n011.hd91aa2f.tgz">0.9.0-beta.3.n011.hd91aa2f</a></td>
+      <td>30 January 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-beta.3.n007.hc58048a.tgz">0.9.0-beta.3.n007.hc58048a</a></td>
+      <td>24 January 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-beta.3.n001.h1cd1311.tgz">0.9.0-beta.3.n001.h1cd1311</a></td>
+      <td>24 January 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-beta.3.tgz">0.9.0-beta.3</a></td>
+      <td>17 January 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-beta.3.n000.h9e1a7f9.tgz">0.9.0-beta.3.n000.h9e1a7f9</a></td>
+      <td>17 January 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-beta.2.n052.hc299132.tgz">0.9.0-beta.2.n052.hc299132</a></td>
+      <td>17 January 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-beta.2.n050.h1b3ac73.tgz">0.9.0-beta.2.n050.h1b3ac73</a></td>
+      <td>17 January 2020</td>
+      <td>1.1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-beta.2.n035.hdf8c07d.tgz">0.9.0-beta.2.n035.hdf8c07d</a></td>
+      <td>17 January 2020</td>
+      <td>1.1.0b1</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-beta.2.n000.hbed779e.tgz">0.9.0-beta.2.n000.hbed779e</a></td>
+      <td>13 January 2020</td>
+      <td>1.1.0b1</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-beta.2.000.bed779e.tgz">0.9.0-beta.2.000.bed779e</a></td>
+      <td>09 January 2020</td>
+      <td>1.1.0b1</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-beta.2.tgz">0.9.0-beta.2</a></td>
+      <td>26 December 2019</td>
+      <td>1.1.0b1</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-beta.1.tgz">0.9.0-beta.1</a></td>
+      <td>26 December 2019</td>
+      <td>1.1.0b1</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-beta.1.000.a7d46a6.tgz">0.9.0-beta.1.000.a7d46a6</a></td>
+      <td>26 December 2019</td>
+      <td>1.1.0b1</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-alpha.1.112.34b7b8e.tgz">0.9.0-alpha.1.112.34b7b8e</a></td>
+      <td>26 December 2019</td>
+      <td>1.1.0b1</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-alpha.1.107.50d07b4.tgz">0.9.0-alpha.1.107.50d07b4</a></td>
+      <td>26 December 2019</td>
+      <td>1.0.1dev</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-alpha.1.104.d37322a.tgz">0.9.0-alpha.1.104.d37322a</a></td>
+      <td>23 December 2019</td>
+      <td>1.0.1dev</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-alpha.1.095.3e95dc3.tgz">0.9.0-alpha.1.095.3e95dc3</a></td>
+      <td>17 December 2019</td>
+      <td>1.0.1dev</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-alpha.1.090.1810aa5.tgz">0.9.0-alpha.1.090.1810aa5</a></td>
+      <td>17 December 2019</td>
+      <td>1.0.1dev</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-alpha.1.088.1350ad7.tgz">0.9.0-alpha.1.088.1350ad7</a></td>
+      <td>07 December 2019</td>
+      <td>1.0.1dev</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-alpha.1.085.6ccbe82.tgz">0.9.0-alpha.1.085.6ccbe82</a></td>
+      <td>04 December 2019</td>
+      <td>1.0.1dev</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-alpha.1.084.5ca8a6f.tgz">0.9.0-alpha.1.084.5ca8a6f</a></td>
+      <td>04 December 2019</td>
+      <td>1.0.1dev</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-alpha.1.078.e53b427.tgz">0.9.0-alpha.1.078.e53b427</a></td>
+      <td>03 December 2019</td>
+      <td>1.0.1dev</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-alpha.1.077.f294716.tgz">0.9.0-alpha.1.077.f294716</a></td>
+      <td>03 December 2019</td>
+      <td>1.0.1dev</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-alpha.1.073.53374ee.tgz">0.9.0-alpha.1.073.53374ee</a></td>
+      <td>02 December 2019</td>
+      <td>1.0.1dev</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-alpha.1.071.b0d70c2.tgz">0.9.0-alpha.1.071.b0d70c2</a></td>
+      <td>30 November 2019</td>
+      <td>1.0.1dev</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-alpha.1.065.111324c.tgz">0.9.0-alpha.1.065.111324c</a></td>
+      <td>29 November 2019</td>
+      <td>1.0.1dev</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-alpha.1.063.bcfc86d.tgz">0.9.0-alpha.1.063.bcfc86d</a></td>
+      <td>29 November 2019</td>
+      <td>1.0.1dev</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-alpha.1.060.6698eb9.tgz">0.9.0-alpha.1.060.6698eb9</a></td>
+      <td>28 November 2019</td>
+      <td>1.0.1dev</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-alpha.1.051.4cf8531.tgz">0.9.0-alpha.1.051.4cf8531</a></td>
+      <td>25 November 2019</td>
+      <td>1.0.1dev</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-alpha.1.037.98f015d.tgz">0.9.0-alpha.1.037.98f015d</a></td>
+      <td>23 November 2019</td>
+      <td>1.0.1dev</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-alpha.1.035.80dce7b.tgz">0.9.0-alpha.1.035.80dce7b</a></td>
+      <td>21 November 2019</td>
+      <td>1.0.1dev</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-alpha.1.033.fd3e470.tgz">0.9.0-alpha.1.033.fd3e470</a></td>
+      <td>16 November 2019</td>
+      <td>1.0.1dev</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-alpha.1.032.00be3e6.tgz">0.9.0-alpha.1.032.00be3e6</a></td>
+      <td>16 November 2019</td>
+      <td>1.0.1dev</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-alpha.1.028.00bc15c.tgz">0.9.0-alpha.1.028.00bc15c</a></td>
+      <td>14 November 2019</td>
+      <td>1.0.1dev</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-alpha.1.026.c817fa7.tgz">0.9.0-alpha.1.026.c817fa7</a></td>
+      <td>14 November 2019</td>
+      <td>1.0.1dev</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-alpha.1.024.57f1e15.tgz">0.9.0-alpha.1.024.57f1e15</a></td>
+      <td>13 November 2019</td>
+      <td>1.0.1dev</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-alpha.1.022.59437a5.tgz">0.9.0-alpha.1.022.59437a5</a></td>
+      <td>11 November 2019</td>
+      <td>1.0.1dev</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-alpha.1.020.c70f016.tgz">0.9.0-alpha.1.020.c70f016</a></td>
+      <td>07 November 2019</td>
+      <td>1.0.1dev</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-alpha.1.019.bdc2fea.tgz">0.9.0-alpha.1.019.bdc2fea</a></td>
+      <td>04 November 2019</td>
+      <td>1.0.1dev</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-alpha.1.017.b161260.tgz">0.9.0-alpha.1.017.b161260</a></td>
+      <td>29 October 2019</td>
+      <td>1.0.1dev</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9.0-alpha.1.014.0f2466c.tgz">0.9.0-alpha.1.014.0f2466c</a></td>
+      <td>29 October 2019</td>
+      <td>1.0.1dev</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.9-0422521.tgz">0.9-0422521</a></td>
+      <td>29 August 2019</td>
+      <td>1.0.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.8.2.tgz">0.8.2</a></td>
+      <td>01 April 2019</td>
+      <td>0.9.6</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.8.1.tgz">0.8.1</a></td>
+      <td>28 March 2019</td>
+      <td>0.9.5</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.8.0-a59cf29.tgz">0.8.0-a59cf29</a></td>
+      <td>22 February 2019</td>
+      <td>0.9.4</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.8.0.tgz">0.8.0</a></td>
+      <td>21 February 2019</td>
+      <td>0.9.4</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.8.0-beta.1.tgz">0.8.0-beta.1</a></td>
+      <td>07 February 2019</td>
+      <td>0.9.4</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.7.0.tgz">0.7.0</a></td>
+      <td>03 September 2018</td>
+      <td>0.9.2</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.7.0-beta.2.tgz">0.7.0-beta.2</a></td>
+      <td>21 August 2018</td>
+      <td>0.9.2</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-0.7.0-beta.1.tgz">0.7.0-beta.1</a></td>
+      <td>19 August 2018</td>
+      <td>0.9.2</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.6.0-096f1a1.tgz">v0.6.0-096f1a1</a></td>
+      <td>31 January 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.6.0-75c1e28.tgz">v0.6.0-75c1e28</a></td>
+      <td>31 January 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.6.0-f6bb627.tgz">v0.6.0-f6bb627</a></td>
+      <td>30 January 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.6.tgz">v0.6</a></td>
+      <td>31 January 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.6.0-7dcc6aa.tgz">v0.6.0-7dcc6aa</a></td>
+      <td>30 January 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.6.0-dcb92ba.tgz">v0.6.0-dcb92ba</a></td>
+      <td>30 January 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.6.0-c122980.tgz">v0.6.0-c122980</a></td>
+      <td>29 January 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.6.0-a66bd88.tgz">v0.6.0-a66bd88</a></td>
+      <td>29 January 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.6.0-a682270.tgz">v0.6.0-a682270</a></td>
+      <td>29 January 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.6.0-a3007b2.tgz">v0.6.0-a3007b2</a></td>
+      <td>26 January 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.6.0-845fe29.tgz">v0.6.0-845fe29</a></td>
+      <td>25 January 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.6.0-5107222.tgz">v0.6.0-5107222</a></td>
+      <td>25 January 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.6.0-0e36a03.tgz">v0.6.0-0e36a03</a></td>
+      <td>25 January 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.6.0-1e60989.tgz">v0.6.0-1e60989</a></td>
+      <td>24 January 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.6.0-bea30eb.tgz">v0.6.0-bea30eb</a></td>
+      <td>24 January 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.6.0-2c53640.tgz">v0.6.0-2c53640</a></td>
+      <td>24 January 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.6.0-fb64667.tgz">v0.6.0-fb64667</a></td>
+      <td>24 January 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.6.0-940bd07.tgz">v0.6.0-940bd07</a></td>
+      <td>23 January 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.6.0-be077bf.tgz">v0.6.0-be077bf</a></td>
+      <td>22 January 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.6.0-80b3cac.tgz">v0.6.0-80b3cac</a></td>
+      <td>18 January 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.6.0-2f61182.tgz">v0.6.0-2f61182</a></td>
+      <td>18 January 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.6.0-f9fe949.tgz">v0.6.0-f9fe949</a></td>
+      <td>18 January 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.6.0-7b58318.tgz">v0.6.0-7b58318</a></td>
+      <td>18 January 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.6.0-c866652.tgz">v0.6.0-c866652</a></td>
+      <td>17 January 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.6.0-904b379.tgz">v0.6.0-904b379</a></td>
+      <td>17 January 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.6.0-baa1618.tgz">v0.6.0-baa1618</a></td>
+      <td>16 January 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.6.0-6ad8815.tgz">v0.6.0-6ad8815</a></td>
+      <td>15 January 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.6.0-bb30f17.tgz">v0.6.0-bb30f17</a></td>
+      <td>13 January 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.6.0-b13e667.tgz">v0.6.0-b13e667</a></td>
+      <td>13 January 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.6.0-3b1d354.tgz">v0.6.0-3b1d354</a></td>
+      <td>13 January 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.6.0-35db474.tgz">v0.6.0-35db474</a></td>
+      <td>12 January 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.6.0-2b02899.tgz">v0.6.0-2b02899</a></td>
+      <td>12 January 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.6.0-5e40fee.tgz">v0.6.0-5e40fee</a></td>
+      <td>11 January 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.6.0-7fb4892.tgz">v0.6.0-7fb4892</a></td>
+      <td>11 January 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.6.0-0ef7ca3.tgz">v0.6.0-0ef7ca3</a></td>
+      <td>09 January 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.6.0-2a4e6c1.tgz">v0.6.0-2a4e6c1</a></td>
+      <td>08 January 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.6.0-d359d98.tgz">v0.6.0-d359d98</a></td>
+      <td>06 January 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.6.0-9701a90.tgz">v0.6.0-9701a90</a></td>
+      <td>02 January 2018</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.6.0-926a8dc.tgz">v0.6.0-926a8dc</a></td>
+      <td>31 December 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.6.0-57c88a6.tgz">v0.6.0-57c88a6</a></td>
+      <td>30 December 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-cb10939.tgz">v0.5.0-cb10939</a></td>
+      <td>27 December 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-8b3b2ab.tgz">v0.5.0-8b3b2ab</a></td>
+      <td>23 December 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-c57f241.tgz">v0.5.0-c57f241</a></td>
+      <td>23 December 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-f963312.tgz">v0.5.0-f963312</a></td>
+      <td>13 December 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0.tgz">0.5.0</a></td>
+      <td>12 December 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-dfc0fa8.tgz">v0.5.0-dfc0fa8</a></td>
+      <td>06 December 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-9e4a767.tgz">v0.5.0-9e4a767</a></td>
+      <td>06 December 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-7372836.tgz">v0.5.0-7372836</a></td>
+      <td>05 December 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-d26bad7.tgz">v0.5.0-d26bad7</a></td>
+      <td>05 December 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-ab5b7dd.tgz">v0.5.0-ab5b7dd</a></td>
+      <td>05 December 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-5dcc785.tgz">v0.5.0-5dcc785</a></td>
+      <td>05 December 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-3fbe09f.tgz">v0.5.0-3fbe09f</a></td>
+      <td>05 December 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-bc8617e.tgz">v0.5.0-bc8617e</a></td>
+      <td>05 December 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-b9a23a7.tgz">v0.5.0-b9a23a7</a></td>
+      <td>05 December 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-16fda74.tgz">v0.5.0-16fda74</a></td>
+      <td>05 December 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-92a1280.tgz">v0.5.0-92a1280</a></td>
+      <td>04 December 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-0930092.tgz">v0.5.0-0930092</a></td>
+      <td>04 December 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-8597da3.tgz">v0.5.0-8597da3</a></td>
+      <td>04 December 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-829d3aa.tgz">v0.5.0-829d3aa</a></td>
+      <td>04 December 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-9187d2b.tgz">v0.5.0-9187d2b</a></td>
+      <td>03 December 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-46a2695.tgz">v0.5.0-46a2695</a></td>
+      <td>02 December 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-597ed84.tgz">v0.5.0-597ed84</a></td>
+      <td>02 December 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-b004969.tgz">v0.5.0-b004969</a></td>
+      <td>01 December 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-66934b6.tgz">v0.5.0-66934b6</a></td>
+      <td>01 December 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-7e9089b.tgz">v0.5.0-7e9089b</a></td>
+      <td>28 November 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-2342aa9.tgz">v0.5.0-2342aa9</a></td>
+      <td>28 November 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-326af2f.tgz">v0.5.0-326af2f</a></td>
+      <td>28 November 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-bca56f4.tgz">v0.5.0-bca56f4</a></td>
+      <td>28 November 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-6d28f2b.tgz">v0.5.0-6d28f2b</a></td>
+      <td>28 November 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-89ec2a8.tgz">v0.5.0-89ec2a8</a></td>
+      <td>27 November 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-7f559b0.tgz">v0.5.0-7f559b0</a></td>
+      <td>27 November 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-c006a71.tgz">v0.5.0-c006a71</a></td>
+      <td>24 November 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-eb30252.tgz">v0.5.0-eb30252</a></td>
+      <td>24 November 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-2d07ef5.tgz">v0.5.0-2d07ef5</a></td>
+      <td>24 November 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-7ed9384.tgz">v0.5.0-7ed9384</a></td>
+      <td>23 November 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-7e2d5f3.tgz">v0.5.0-7e2d5f3</a></td>
+      <td>20 November 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-5bc6cfa.tgz">v0.5.0-5bc6cfa</a></td>
+      <td>17 November 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-3ebd38b.tgz">v0.5.0-3ebd38b</a></td>
+      <td>17 November 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-92f9876.tgz">v0.5.0-92f9876</a></td>
+      <td>17 November 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-93ef56d.tgz">v0.5.0-93ef56d</a></td>
+      <td>17 November 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-5c576aa.tgz">v0.5.0-5c576aa</a></td>
+      <td>16 November 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-1d3e001.tgz">v0.5.0-1d3e001</a></td>
+      <td>16 November 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-946eed6.tgz">v0.5.0-946eed6</a></td>
+      <td>15 November 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-5ef8aa1.tgz">v0.5.0-5ef8aa1</a></td>
+      <td>13 November 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-9697735.tgz">v0.5.0-9697735</a></td>
+      <td>10 November 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-b2ac9a5.tgz">v0.5.0-b2ac9a5</a></td>
+      <td>09 November 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-daefbdb.tgz">v0.5.0-daefbdb</a></td>
+      <td>09 November 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-0bc0d0a.tgz">v0.5.0-0bc0d0a</a></td>
+      <td>07 November 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-a27db6f.tgz">v0.5.0-a27db6f</a></td>
+      <td>07 November 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-e0edc5d.tgz">v0.5.0-e0edc5d</a></td>
+      <td>07 November 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-00efcce.tgz">v0.5.0-00efcce</a></td>
+      <td>06 November 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-0f87fa7.tgz">v0.5.0-0f87fa7</a></td>
+      <td>06 November 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-39410ec.tgz">v0.5.0-39410ec</a></td>
+      <td>06 November 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-e154ab7.tgz">v0.5.0-e154ab7</a></td>
+      <td>02 November 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-cdaa49e.tgz">v0.5.0-cdaa49e</a></td>
+      <td>02 November 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-0b38cca.tgz">v0.5.0-0b38cca</a></td>
+      <td>02 November 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-90ea3b7.tgz">v0.5.0-90ea3b7</a></td>
+      <td>02 November 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-3be4d58.tgz">v0.5.0-3be4d58</a></td>
+      <td>02 November 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-aee2160.tgz">v0.5.0-aee2160</a></td>
+      <td>30 October 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-66fec0e.tgz">v0.5.0-66fec0e</a></td>
+      <td>28 October 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-b4e0ac1.tgz">v0.5.0-b4e0ac1</a></td>
+      <td>27 October 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-10a7aa6.tgz">v0.5.0-10a7aa6</a></td>
+      <td>24 October 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-37b565e.tgz">v0.5.0-37b565e</a></td>
+      <td>24 October 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-89371a0.tgz">v0.5.0-89371a0</a></td>
+      <td>17 October 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-fd4982b.tgz">v0.5.0-fd4982b</a></td>
+      <td>16 October 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-4b98a3b.tgz">v0.5.0-4b98a3b</a></td>
+      <td>12 October 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-d7b9b43.tgz">v0.5.0-d7b9b43</a></td>
+      <td>11 October 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-597c4a3.tgz">v0.5.0-597c4a3</a></td>
+      <td>10 October 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-d392365.tgz">v0.5.0-d392365</a></td>
+      <td>10 October 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-7f5ec99.tgz">v0.5.0-7f5ec99</a></td>
+      <td>08 October 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-e883039.tgz">v0.5.0-e883039</a></td>
+      <td>05 October 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-6284a58.tgz">v0.5.0-6284a58</a></td>
+      <td>05 October 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-d59c447.tgz">v0.5.0-d59c447</a></td>
+      <td>05 October 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-11545aa.tgz">v0.5.0-11545aa</a></td>
+      <td>02 October 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-d1edb2e.tgz">v0.5.0-d1edb2e</a></td>
+      <td>02 October 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-e2f6e3b.tgz">v0.5.0-e2f6e3b</a></td>
+      <td>29 September 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-7e66c8d.tgz">v0.5.0-7e66c8d</a></td>
+      <td>25 September 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-989ca8a.tgz">v0.5.0-989ca8a</a></td>
+      <td>25 September 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-5043a27.tgz">v0.5.0-5043a27</a></td>
+      <td>21 September 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-60d776f.tgz">v0.5.0-60d776f</a></td>
+      <td>21 September 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-5a7c0bc.tgz">v0.5.0-5a7c0bc</a></td>
+      <td>21 September 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-a290a31.tgz">v0.5.0-a290a31</a></td>
+      <td>21 September 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-dd353c6.tgz">v0.5.0-dd353c6</a></td>
+      <td>20 September 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.4.0-cbcc340.tgz">v0.4.0-cbcc340</a></td>
+      <td>20 September 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-d3017dd.tgz">v0.5.0-d3017dd</a></td>
+      <td>20 September 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-fc53f60.tgz">v0.5.0-fc53f60</a></td>
+      <td>20 September 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-8e594c0.tgz">v0.5.0-8e594c0</a></td>
+      <td>20 September 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-5374928.tgz">v0.5.0-5374928</a></td>
+      <td>20 September 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.4.0-d95ec8d.tgz">v0.4.0-d95ec8d</a></td>
+      <td>20 September 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.4.0-d44801a.tgz">v0.4.0-d44801a</a></td>
+      <td>20 September 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-e7a35ed.tgz">v0.5.0-e7a35ed</a></td>
+      <td>20 September 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.4.0-e456267.tgz">v0.4.0-e456267</a></td>
+      <td>20 September 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-aec0c68.tgz">v0.5.0-aec0c68</a></td>
+      <td>20 September 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.4.0-a9233f8.tgz">v0.4.0-a9233f8</a></td>
+      <td>20 September 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.4.0-d16ea42.tgz">v0.4.0-d16ea42</a></td>
+      <td>20 September 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-ea0cb0b.tgz">v0.5.0-ea0cb0b</a></td>
+      <td>20 September 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.4.0-b8cddc4.tgz">v0.4.0-b8cddc4</a></td>
+      <td>20 September 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.4.0-6349e57.tgz">v0.4.0-6349e57</a></td>
+      <td>20 September 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.4.0-1ffe7e3.tgz">v0.4.0-1ffe7e3</a></td>
+      <td>20 September 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-4f7cb71.tgz">v0.5.0-4f7cb71</a></td>
+      <td>15 September 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.4.0-b1b6db2.tgz">v0.4.0-b1b6db2</a></td>
+      <td>15 September 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-0a9ab62.tgz">v0.5.0-0a9ab62</a></td>
+      <td>14 September 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-016984e.tgz">v0.5.0-016984e</a></td>
+      <td>14 September 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-7b10b3c.tgz">v0.5.0-7b10b3c</a></td>
+      <td>13 September 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-89f95ba.tgz">v0.5.0-89f95ba</a></td>
+      <td>13 September 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.4.0-18c691f.tgz">v0.4.0-18c691f</a></td>
+      <td>07 September 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.4.0-0a52e53.tgz">v0.4.0-0a52e53</a></td>
+      <td>06 September 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.4.0-3418cf8.tgz">v0.4.0-3418cf8</a></td>
+      <td>06 September 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-1beaa1a.tgz">v0.5.0-1beaa1a</a></td>
+      <td>06 September 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.4.0-b2fb7a6.tgz">v0.4.0-b2fb7a6</a></td>
+      <td>06 September 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.4.0-5e148d8.tgz">v0.4.0-5e148d8</a></td>
+      <td>06 September 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.4.0-627ff35.tgz">v0.4.0-627ff35</a></td>
+      <td>04 September 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.4.0-a137ba7.tgz">v0.4.0-a137ba7</a></td>
+      <td>03 September 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.4.0-2ccffdb.tgz">v0.4.0-2ccffdb</a></td>
+      <td>02 September 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.4.0-b349d95.tgz">v0.4.0-b349d95</a></td>
+      <td>27 August 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-9401a21.tgz">v0.5.0-9401a21</a></td>
+      <td>27 August 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-6f28c19.tgz">v0.5.0-6f28c19</a></td>
+      <td>26 August 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-a380f8e.tgz">v0.5.0-a380f8e</a></td>
+      <td>21 August 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-cadc429.tgz">v0.5.0-cadc429</a></td>
+      <td>21 August 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-68d8df4.tgz">v0.5.0-68d8df4</a></td>
+      <td>21 August 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-fb7d258.tgz">v0.5.0-fb7d258</a></td>
+      <td>21 August 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-3985101.tgz">v0.5.0-3985101</a></td>
+      <td>21 August 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-9deaf72.tgz">v0.5.0-9deaf72</a></td>
+      <td>21 August 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-1ef70e6.tgz">v0.5.0-1ef70e6</a></td>
+      <td>20 August 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.4.0-29bb3e6.tgz">v0.4.0-29bb3e6</a></td>
+      <td>20 August 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-58e8ef6.tgz">v0.5.0-58e8ef6</a></td>
+      <td>19 August 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-46ea356.tgz">v0.5.0-46ea356</a></td>
+      <td>19 August 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-3ee17ec.tgz">v0.5.0-3ee17ec</a></td>
+      <td>19 August 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-9aa4f4e.tgz">v0.5.0-9aa4f4e</a></td>
+      <td>19 August 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-96b0f4b.tgz">v0.5.0-96b0f4b</a></td>
+      <td>19 August 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-664a31f.tgz">v0.5.0-664a31f</a></td>
+      <td>19 August 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.4.0-0774732.tgz">v0.4.0-0774732</a></td>
+      <td>19 August 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.4.0-0f77569.tgz">v0.4.0-0f77569</a></td>
+      <td>19 August 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.4.0-9dbffeb.tgz">v0.4.0-9dbffeb</a></td>
+      <td>18 August 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.4.0-ccde98b.tgz">v0.4.0-ccde98b</a></td>
+      <td>17 August 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.4.0-c74aa35.tgz">v0.4.0-c74aa35</a></td>
+      <td>16 August 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-393cbb3.tgz">v0.5.0-393cbb3</a></td>
+      <td>15 August 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.5.0-99c3e59.tgz">v0.5.0-99c3e59</a></td>
+      <td>15 August 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.4.tgz">v0.4</a></td>
+      <td>27 June 2017</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/jupyterhub-v0.3.1.tgz">v0.3.1</a></td>
+      <td>19 May 2017</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="development-releases-pebble">Development releases: pebble</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Version</th>
+      <th>Date</th>
+      <th>App. version</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/pebble-0.2.2-n000.hefa0ee7.tgz">0.2.2-n000.hefa0ee7</a></td>
+      <td>08 November 2020</td>
+      <td>v2.3.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/pebble-0.2.2.tgz">0.2.2</a></td>
+      <td>01 June 2020</td>
+      <td>v2.3.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/pebble-0.2.1.tgz">0.2.1</a></td>
+      <td>01 June 2020</td>
+      <td>v2.3.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/pebble-0.2.0.tgz">0.2.0</a></td>
+      <td>25 May 2020</td>
+      <td>v2.3.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/pebble-0.1.0.tgz">0.1.0</a></td>
+      <td>15 May 2020</td>
+      <td>v2.3.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/pebble-0.0.3.tgz">0.0.3</a></td>
+      <td>13 May 2020</td>
+      <td>v2.3.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/pebble-0.0.2.tgz">0.0.2</a></td>
+      <td>10 May 2020</td>
+      <td>v2.3.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://jupyterhub.github.io/helm-chart/pebble-0.0.1.tgz">0.0.1</a></td>
+      <td>08 May 2020</td>
+      <td>v2.3.0</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+      </section>
+      <footer>
+        
+        <p>This project is maintained by <a href="https://github.com/jupyterhub">jupyterhub</a></p>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/helm-chart/assets/js/scale.fix.js"></script>
+    
+  </body>
+</html>
