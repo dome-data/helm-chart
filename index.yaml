@@ -16,9 +16,9 @@ entries:
   jupyterhub:
   - apiVersion: v1
     appVersion: 1.2.2
-    created: "2020-12-03T16:09:03.284811522+08:00"
+    created: "2020-12-03T16:13:26.771210874+08:00"
     description: Multi-user Jupyter installation
-    digest: e8e9ced09810f885032db1d734766e91f70a7cea934e7efc33f44b0d66eef84a
+    digest: 5eff81460ffe4430da50288d7acd00a6e6c2e877670153105c8de3f9dcb811c9
     home: https://z2jh.jupyter.org
     icon: https://jupyter.org/assets/hublogo.svg
     kubeVersion: '>=1.14.0-0'
@@ -33,4 +33,4 @@ entries:
     urls:
     - https://dome-data.github.io/helm-chart/jupyterhub-0.10.6-dome0.0.1.tgz
     version: 0.10.6-dome0.0.1
-generated: "2020-12-03T16:09:03.280305894+08:00"
+generated: "2020-12-03T16:13:26.767689094+08:00"
