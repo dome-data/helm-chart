@@ -13,4 +13,4 @@ entries:
     urls:
     - https://jupyterhub.github.io/helm-chart/binderhub-0.2.0-n432.h687657b.tgz
     version: 0.2.0-n432.h687657b
-generated: "2020-13-03T15:53:43.681537582Z"
+generated: "2020-13-03T07:53:43.681537582Z"
