@@ -16,21 +16,21 @@ entries:
   jupyterhub:
   - apiVersion: v1
     appVersion: 1.2.2
-    created: "2020-12-03T16:13:26.771210874+08:00"
-    description: Multi-user Jupyter installation
-    digest: 5eff81460ffe4430da50288d7acd00a6e6c2e877670153105c8de3f9dcb811c9
-    home: https://z2jh.jupyter.org
-    icon: https://jupyter.org/assets/hublogo.svg
+    created: "2020-12-03T18:45:26.163258797+08:00"
+    description: Multi-user Jupyter installation created by domedata
+    digest: 4637308de07599d62b7727a242008b5b4d777887c530cb015a7d8323611ed7c1
+    home: https://geeksdata.cn
+    icon: https://geeksdata.cn/img/logo.8aa722ca.svg
     kubeVersion: '>=1.14.0-0'
     maintainers:
-    - email: erik@sundellopensource.se
-      name: Erik Sundell
-    - name: Simon Li
-      url: https://github.com/manics/
+    - email: jinzhong.zhao@bigdatacn.com
+      name: Jone
+    - name: Bing.yuan
+      url: https://geeksdata.cn/
     name: jupyterhub
     sources:
-    - https://github.com/jupyterhub/zero-to-jupyterhub-k8s
+    - http://code.inner.geeksdata.cn/jupyter/jupyter-k8s
     urls:
     - https://dome-data.github.io/helm-chart/jupyterhub-0.10.6-dome0.0.1.tgz
     version: 0.10.6-dome0.0.1
-generated: "2020-12-03T16:13:26.767689094+08:00"
+generated: "2020-12-03T18:45:26.159094623+08:00"
